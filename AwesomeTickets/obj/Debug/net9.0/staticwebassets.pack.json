@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\036826b4-48db-4839-b885-0dd2f8930e8b.png",
+      "PackagePath": "staticwebassets\\event-images\\036826b4-48db-4839-b885-0dd2f8930e8b.png"
+    },
+    {
       "Id": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\51e88979-80cc-495a-a1e8-f79a3f4d6505.jpg",
       "PackagePath": "staticwebassets\\event-images\\51e88979-80cc-495a-a1e8-f79a3f4d6505.jpg"
     },
     {
       "Id": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\73bd0083-a702-41b2-a03c-4a45a09c1e71.jpg",
       "PackagePath": "staticwebassets\\event-images\\73bd0083-a702-41b2-a03c-4a45a09c1e71.jpg"
+    },
+    {
+      "Id": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\c51bd7e7-7952-41ac-b9bf-f1ca0c3ffcf4.png",
+      "PackagePath": "staticwebassets\\event-images\\c51bd7e7-7952-41ac-b9bf-f1ca0c3ffcf4.png"
     },
     {
       "Id": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\efe3c80b-894f-4b3a-9eb5-8a6072cef2c6.jpg",

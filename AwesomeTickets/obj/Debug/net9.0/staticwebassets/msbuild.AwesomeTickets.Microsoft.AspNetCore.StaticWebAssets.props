@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\event-images\036826b4-48db-4839-b885-0dd2f8930e8b.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AwesomeTickets</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AwesomeTickets</BasePath>
+      <RelativePath>event-images/036826b4-48db-4839-b885-0dd2f8930e8b.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>44mit2gfqq</Fingerprint>
+      <Integrity>jHrdPQ0ewIXDAIpQVfLn7dD0CPS4hiEkDfWlhQVbXcs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\event-images\036826b4-48db-4839-b885-0dd2f8930e8b.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\event-images\51e88979-80cc-495a-a1e8-f79a3f4d6505.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>AwesomeTickets</SourceId>
@@ -71,6 +89,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\event-images\73bd0083-a702-41b2-a03c-4a45a09c1e71.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\event-images\c51bd7e7-7952-41ac-b9bf-f1ca0c3ffcf4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AwesomeTickets</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AwesomeTickets</BasePath>
+      <RelativePath>event-images/c51bd7e7-7952-41ac-b9bf-f1ca0c3ffcf4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jjmtt59hap</Fingerprint>
+      <Integrity>oafmMI4S5fLaZY6Z/hpEv3r59J6jeEGaIUjnLYL691c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\event-images\c51bd7e7-7952-41ac-b9bf-f1ca0c3ffcf4.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\event-images\efe3c80b-894f-4b3a-9eb5-8a6072cef2c6.jpg'))">
       <SourceType>Package</SourceType>

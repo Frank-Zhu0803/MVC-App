@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace AwesomeTickets.Models
 {
@@ -6,13 +6,12 @@ namespace AwesomeTickets.Models
     {
         [Key]
         public int CategoryId { get; set; }
-
-        [Required(ErrorMessage = "The category title is required.")]
-        [StringLength(100, ErrorMessage = "The category title cannot exceed 100 characters.")]
+        
+        [Required]
+        [StringLength(100)]
         public string Title { get; set; }
-
-        // Navigation Property
+        
+        // Navigation property for relationship with Events
         public List<Event> Events { get; set; }
     }
-
-}
+} 

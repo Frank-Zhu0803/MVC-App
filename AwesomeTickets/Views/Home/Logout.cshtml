@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Logout Confirmation";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="text-center">Logout Confirmation</h3>
+            </div>
+            <div class="card-body text-center">
+                <p class="lead">Are you sure you want to logout?</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <form method="post" asp-controller="Home" asp-action="LogoutConfirmed">
+                        <button type="submit" class="btn btn-danger">Yes, Logout</button>
+                    </form>
+                    <a asp-controller="Events" asp-action="Index" class="btn btn-secondary">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

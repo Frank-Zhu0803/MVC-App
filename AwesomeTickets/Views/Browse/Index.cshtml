@@ -1,0 +1,80 @@
+@model IEnumerable<AwesomeTickets.Models.Event>
+
+@{
+    ViewData["Title"] = "Browse Events";
+}
+
+<div class="container">
+    <h1 class="my-4">Upcoming Events</h1>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Success"]
+        </div>
+    }
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    @if (!string.IsNullOrEmpty(item.ImageFilename))
+                    {
+                        <img src="~/event-images/@item.ImageFilename" class="card-img-top" alt="@item.Title" style="height: 200px; object-fit: cover;">
+                    }
+                    else
+                    {
+                        <div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+                            <span class="text-muted">No Image</span>
+                        </div>
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text text-truncate">@item.Description</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <strong>Date:</strong> @item.EventDateTime.ToString("MMM dd, yyyy - h:mm tt")
+                            </small>
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <strong>Location:</strong> @item.Location
+                            </small>
+                        </p>
+                        <p class="card-text">
+                            <strong>Price:</strong> @item.Price.ToString("C")
+                        </p>
+                        <p class="card-text">
+                            <strong>Available Tickets:</strong> @item.AvailableQuantity
+                        </p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Details" asp-route-id="@item.EventId" class="btn btn-primary">View Details</a>
+                            
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                @if (item.AvailableQuantity > 0)
+                                {
+                                    <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                                        <input type="hidden" name="eventId" value="@item.EventId" />
+                                        <input type="hidden" name="quantity" value="1" />
+                                        <button type="submit" class="btn btn-outline-primary">
+                                            <i class="bi bi-cart-plus"></i> Add to Cart
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-secondary" disabled>Sold Out</button>
+                                }
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Category: @item.Category.Title
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div> 

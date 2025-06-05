@@ -3,6 +3,7 @@ using System;
 using AwesomeTickets.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AwesomeTickets.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250604124127_AddEventQuantity")]
+    partial class AddEventQuantity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -125,55 +128,6 @@ namespace AwesomeTickets.Migrations
                     b.ToTable("Events");
                 });
 
-            modelBuilder.Entity("AwesomeTickets.Models.EventOrder", b =>
-                {
-                    b.Property<int>("OrderId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<decimal>("TotalAmount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("OrderId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("EventOrders");
-                });
-
-            modelBuilder.Entity("AwesomeTickets.Models.EventOrderItem", b =>
-                {
-                    b.Property<int>("OrderItemId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<int>("EventId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("UnitPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("OrderItemId");
-
-                    b.HasIndex("EventId");
-
-                    b.HasIndex("OrderId");
-
-                    b.ToTable("EventOrderItems");
-                });
-
             modelBuilder.Entity("AwesomeTickets.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -241,36 +195,6 @@ namespace AwesomeTickets.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("AwesomeTickets.Models.EventOrder", b =>
-                {
-                    b.HasOne("AwesomeTickets.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("AwesomeTickets.Models.EventOrderItem", b =>
-                {
-                    b.HasOne("AwesomeTickets.Models.Event", "Event")
-                        .WithMany()
-                        .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AwesomeTickets.Models.EventOrder", "Order")
-                        .WithMany("Items")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Event");
-
-                    b.Navigation("Order");
-                });
-
             modelBuilder.Entity("AwesomeTickets.Models.Cart", b =>
                 {
                     b.Navigation("Items");
@@ -279,11 +203,6 @@ namespace AwesomeTickets.Migrations
             modelBuilder.Entity("AwesomeTickets.Models.Category", b =>
                 {
                     b.Navigation("Events");
-                });
-
-            modelBuilder.Entity("AwesomeTickets.Models.EventOrder", b =>
-                {
-                    b.Navigation("Items");
                 });
 #pragma warning restore 612, 618
         }

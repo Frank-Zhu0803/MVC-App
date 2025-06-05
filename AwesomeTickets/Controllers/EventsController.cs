@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AwesomeTickets.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class EventsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -61,9 +61,8 @@ namespace AwesomeTickets.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EventId,Title,Description,ImageFilename,EventDateTime,Location,Price,CreateDate,CategoryId")] Event @event, IFormFile ImageFile)
+        public async Task<IActionResult> Create([Bind("EventId,Title,Description,ImageFilename,EventDateTime,Location,Price,CreateDate,CategoryId,AvailableQuantity")] Event @event, IFormFile ImageFile)
         {
-
             if (ModelState.IsValid)
             {
                 if (ImageFile != null && ImageFile.Length > 0)
@@ -72,7 +71,6 @@ namespace AwesomeTickets.Controllers
                     string uploadFolder = Path.Combine(_environment.WebRootPath, "event-images");
                     string filePath = Path.Combine(uploadFolder, uniqueFileName);
 
-                    // Ensure the directory exists
                     Directory.CreateDirectory(uploadFolder);
 
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
@@ -80,7 +78,7 @@ namespace AwesomeTickets.Controllers
                         await ImageFile.CopyToAsync(fileStream);
                     }
 
-                    @event.ImageFilename = uniqueFileName; // Store only the filename in the database
+                    @event.ImageFilename = uniqueFileName;
                 }
                 @event.CreateDate = DateTime.Now; 
                 _context.Add(@event);
@@ -109,49 +107,59 @@ namespace AwesomeTickets.Controllers
         }
 
         // POST: Events/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("EventId,Title,Description,ImageFilename,EventDateTime,Location,Price,CreateDate,CategoryId")] Event @event, IFormFile ImageFile)
+        public async Task<IActionResult> Edit(int id, [Bind("EventId,Title,Description,ImageFilename,EventDateTime,Location,Price,CreateDate,CategoryId,AvailableQuantity")] Event @event, IFormFile ImageFile)
         {
             if (id != @event.EventId)
             {
                 return NotFound();
             }
 
+            // Get the existing event to preserve the image filename if no new image is uploaded
+            var existingEvent = await _context.Events.AsNoTracking().FirstOrDefaultAsync(e => e.EventId == id);
+            if (existingEvent == null)
+            {
+                return NotFound();
+            }
+
+            // If no new image is uploaded, keep the existing image filename
+            if (ImageFile == null || ImageFile.Length == 0)
+            {
+                @event.ImageFilename = existingEvent.ImageFilename;
+            }
+
+            ModelState.Remove("ImageFile");
+
             if (ModelState.IsValid)
             {
                 try
                 {
-                    // Check if a new image has been uploaded
+                    // Handle new image upload
                     if (ImageFile != null && ImageFile.Length > 0)
                     {
-                        // 1. Delete the old image (if it exists)
-                        if (!string.IsNullOrEmpty(@event.ImageFilename))
+                        // Delete the old image if it exists
+                        if (!string.IsNullOrEmpty(existingEvent.ImageFilename))
                         {
-                            string oldImagePath = Path.Combine(_environment.WebRootPath, "event-images", @event.ImageFilename);
+                            string oldImagePath = Path.Combine(_environment.WebRootPath, "event-images", existingEvent.ImageFilename);
                             if (System.IO.File.Exists(oldImagePath))
                             {
                                 System.IO.File.Delete(oldImagePath);
                             }
                         }
 
-                        // 2. Generate a unique filename for the new image
+                        // Save the new image
                         string uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
                         string uploadFolder = Path.Combine(_environment.WebRootPath, "event-images");
                         string filePath = Path.Combine(uploadFolder, uniqueFileName);
 
-                        // Ensure the directory exists
                         Directory.CreateDirectory(uploadFolder);
 
-                        // 3. Save the new image
                         using (var fileStream = new FileStream(filePath, FileMode.Create))
                         {
                             await ImageFile.CopyToAsync(fileStream);
                         }
 
-                        // 4. Update the ImageFilename in the model
                         @event.ImageFilename = uniqueFileName;
                     }
 
@@ -202,6 +210,16 @@ namespace AwesomeTickets.Controllers
             var @event = await _context.Events.FindAsync(id);
             if (@event != null)
             {
+                // Delete the image file if it exists
+                if (!string.IsNullOrEmpty(@event.ImageFilename))
+                {
+                    string imagePath = Path.Combine(_environment.WebRootPath, "event-images", @event.ImageFilename);
+                    if (System.IO.File.Exists(imagePath))
+                    {
+                        System.IO.File.Delete(imagePath);
+                    }
+                }
+
                 _context.Events.Remove(@event);
             }
 

@@ -14,5 +14,9 @@ namespace AwesomeTickets.Models
         [Required]
         [StringLength(100)]
         public string Password { get; set; }
+        
+        [Required]
+        [StringLength(20)]
+        public string Role { get; set; } = "User";
     }
 } 

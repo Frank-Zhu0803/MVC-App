@@ -33,6 +33,10 @@ namespace AwesomeTickets.Models
         [DataType(DataType.Currency)]
         public decimal Price { get; set; }
 
+        [Required(ErrorMessage = "The available quantity is required.")]
+        [Range(0, int.MaxValue, ErrorMessage = "The quantity must be a non-negative number.")]
+        public int AvailableQuantity { get; set; }
+
         [ValidateNever]
         public DateTime CreateDate { get; set; } = DateTime.Now; // Set default value
 

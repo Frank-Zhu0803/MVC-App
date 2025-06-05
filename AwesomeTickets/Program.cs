@@ -44,7 +44,8 @@ using (var scope = app.Services.CreateScope())
         context.Users.Add(new User
         {
             Username = "admin",
-            Password = "admin123"
+            Password = "admin123",
+            Role = "Admin"
         });
         context.SaveChanges();
     }
@@ -65,16 +66,16 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Add a direct redirect from root to Home/Index
+// Add a direct redirect from root to Browse/Index
 app.MapGet("/", context => {
-    context.Response.Redirect("/Home/Index");
+    context.Response.Redirect("/Browse/Index");
     return Task.CompletedTask;
 });
 
 // Configure endpoints - MVC routes first, then Razor Pages
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Browse}/{action=Index}/{id?}");
 
 app.MapRazorPages();
 

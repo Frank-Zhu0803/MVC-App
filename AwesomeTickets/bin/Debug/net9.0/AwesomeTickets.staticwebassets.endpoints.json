@@ -763,6 +763,88 @@
       ]
     },
     {
+      "Route": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.jpeg",
+      "AssetFile": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3219138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 02:19:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow="
+        }
+      ]
+    },
+    {
+      "Route": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.oyx94tbfzy.jpeg",
+      "AssetFile": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3219138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 02:19:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oyx94tbfzy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow="
+        },
+        {
+          "Name": "label",
+          "Value": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.jpeg"
+        }
+      ]
+    },
+    {
       "Route": "event-images/73bd0083-a702-41b2-a03c-4a45a09c1e71.jpg",
       "AssetFile": "event-images/73bd0083-a702-41b2-a03c-4a45a09c1e71.jpg",
       "Selectors": [],

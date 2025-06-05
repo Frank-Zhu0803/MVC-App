@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MnvFYGgI25k4H87CYRTnukUSuMNO2B6fRql6D7LgO5A=",
+  "Hash": "8Km+S0h9MKqFMI6xWSohpb515xIfksAYpPofjAS7DWg=",
   "Source": "AwesomeTickets",
   "BasePath": "_content/AwesomeTickets",
   "Mode": "Default",
@@ -1464,6 +1464,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\event-images\\51e88979-80cc-495a-a1e8-f79a3f4d6505.jpg"
+    },
+    {
+      "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\552be8aa-7f23-4555-8402-b0247432ed71.jpeg",
+      "SourceId": "AwesomeTickets",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\",
+      "BasePath": "_content/AwesomeTickets",
+      "RelativePath": "event-images/552be8aa-7f23-4555-8402-b0247432ed71#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oyx94tbfzy",
+      "Integrity": "MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\event-images\\552be8aa-7f23-4555-8402-b0247432ed71.jpeg"
     },
     {
       "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\73bd0083-a702-41b2-a03c-4a45a09c1e71.jpg",
@@ -3887,6 +3908,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-5ZBUCm87ULigBwIC9uJmwjbJLy3evFa9lTMXyRhuaSE="
+        }
+      ]
+    },
+    {
+      "Route": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.jpeg",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\552be8aa-7f23-4555-8402-b0247432ed71.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3219138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 02:19:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow="
+        }
+      ]
+    },
+    {
+      "Route": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.oyx94tbfzy.jpeg",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\552be8aa-7f23-4555-8402-b0247432ed71.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3219138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 02:19:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oyx94tbfzy"
+        },
+        {
+          "Name": "label",
+          "Value": "event-images/552be8aa-7f23-4555-8402-b0247432ed71.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MJyolBEqoT8ud7UIHc3B3bqgNx2KEEarnqlnyRrs5ow="
         }
       ]
     },

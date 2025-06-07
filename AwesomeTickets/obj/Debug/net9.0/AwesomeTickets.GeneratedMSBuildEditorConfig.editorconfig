@@ -17,133 +17,133 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AwesomeTickets
 build_property.RootNamespace = AwesomeTickets
-build_property.ProjectDir = D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\
+build_property.ProjectDir = C:\Users\admin\Documents\GitHub\MVC-App\AwesomeTickets\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets
+build_property.MSBuildProjectDirectory = C:\Users\admin\Documents\GitHub\MVC-App\AwesomeTickets
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Pages/Error.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Pages/Index.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Pages/Privacy.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Pages/_ViewImports.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Pages/_ViewStart.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Browse/Details.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Browse/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Browse/Index.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Browse/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Cart/Index.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Categories/Create.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Categories/Delete.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Categories/Details.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Categories/Edit.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Categories/Index.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Events/Create.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Events/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Events/Delete.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Events/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Events/Details.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Events/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Events/Edit.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Events/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Events/Index.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Events/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Home/Index.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Home/Login.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Home/Logout.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Home/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Home/Register.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Home/Test.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Home/Test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Shared/Unauthorized.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Shared/Unauthorized.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVuYXV0aG9yaXplZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Shared/_Layout.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/_ViewImports.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Views/_ViewStart.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/WindowsProjects/IdeaProjects/AwesomeTickets/AwesomeTickets/Pages/Shared/_Layout.cshtml]
+[C:/Users/admin/Documents/GitHub/MVC-App/AwesomeTickets/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0kop7l4701

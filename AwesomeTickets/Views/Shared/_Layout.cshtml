@@ -3,32 +3,55 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AwesomeTickets - Your premier platform for booking event tickets online" />
     <title>@ViewData["Title"] - AwesomeTickets</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AwesomeTickets.styles.css" asp-append-version="true" />
 </head>
 <body>
+    
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm" aria-label="Main navigation">
             <div class="container">
-                <a class="navbar-brand" asp-controller="Browse" asp-action="Index">AwesomeTickets</a>
+                <a class="navbar-brand fw-bold" asp-controller="Browse" asp-action="Index" aria-label="AwesomeTickets Home">
+                    <i class="bi bi-ticket-perforated-fill me-2" aria-hidden="true"></i>AwesomeTickets
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-lg-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Browse" asp-action="Index">Browse Events</a>
+                            <a class="nav-link" asp-controller="Browse" asp-action="Index" accesskey="b">
+                                <i class="bi bi-calendar-event me-1" aria-hidden="true"></i> <span>Browse Events</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Accessibility" accesskey="a">
+                                <i class="bi bi-universal-access me-1" aria-hidden="true"></i> <span>Accessibility</span>
+                            </a>
                         </li>
                         @if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Events" asp-action="Index">Manage Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Categories" asp-action="Index">Manage Categories</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                    <i class="bi bi-gear me-1" aria-hidden="true"></i> <span>Admin</span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Events" asp-action="Index">
+                                            <i class="bi bi-calendar-plus me-1" aria-hidden="true"></i> <span>Manage Events</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Categories" asp-action="Index">
+                                            <i class="bi bi-tags me-1" aria-hidden="true"></i> <span>Manage Categories</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         }
                     </ul>
@@ -36,24 +59,34 @@
                         @if (User.Identity != null && User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Cart" asp-action="Index">
-                                Shopping Cart
+                                <a class="nav-link" asp-controller="Cart" asp-action="Index" accesskey="c">
+                                    <i class="bi bi-cart me-1" aria-hidden="true"></i> <span>Cart</span>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <span class="nav-link text-dark">Welcome, @User.Identity.Name!</span>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Logout">Logout</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+                                    <i class="bi bi-person-circle me-1" aria-hidden="true"></i> <span>@User.Identity.Name</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Home" asp-action="Logout">
+                                            <i class="bi bi-box-arrow-right me-1" aria-hidden="true"></i> <span>Logout</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Login">Login</a>
+                                <a class="nav-link" asp-controller="Home" asp-action="Login" accesskey="l">
+                                    <i class="bi bi-box-arrow-in-right me-1" aria-hidden="true"></i> <span>Login</span>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Register">Register</a>
+                                <a class="nav-link" asp-controller="Home" asp-action="Register" accesskey="r">
+                                    <i class="bi bi-person-plus me-1" aria-hidden="true"></i> <span>Register</span>
+                                </a>
                             </li>
                         }
                     </ul>
@@ -62,20 +95,93 @@
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main id="main-content" role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - AwesomeTickets
+    <footer class="border-top footer bg-light mt-5 py-3" role="contentinfo">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0">&copy; 2025 - AwesomeTickets - Your Premier Ticketing Platform</p>
+                    <div class="mt-2">
+                        <a asp-controller="Home" asp-action="Accessibility" class="text-decoration-none">Accessibility</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="backToTopBtn" class="btn btn-primary btn-sm back-to-top" aria-label="Back to top">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+    </button>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Custom accessibility script -->
+    <script>
+        // Back to top button
+        let backToTopBtn = document.getElementById("backToTopBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        }
+        
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            document.getElementById('main-content').focus();
+        }
+
+        // Keyboard navigation with arrow keys for card elements
+        document.addEventListener('keydown', function(e) {
+            if (document.activeElement && document.activeElement.classList.contains('card')) {
+                const card = document.activeElement;
+                let nextCard;
+
+                if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                    nextCard = card.parentNode.nextElementSibling ? 
+                              card.parentNode.nextElementSibling.querySelector('.card') : null;
+                    if (nextCard) {
+                        e.preventDefault();
+                        nextCard.focus();
+                    }
+                } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                    nextCard = card.parentNode.previousElementSibling ? 
+                              card.parentNode.previousElementSibling.querySelector('.card') : null;
+                    if (nextCard) {
+                        e.preventDefault();
+                        nextCard.focus();
+                    }
+                } else if (e.key === 'Enter') {
+                    const detailsLink = card.querySelector('a[asp-action="Details"]');
+                    if (detailsLink) {
+                        e.preventDefault();
+                        detailsLink.click();
+                    }
+                }
+            }
+        });
+        
+        // Add tab index and role to all card elements for keyboard navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(function(card) {
+                card.setAttribute('tabindex', '0');
+                card.setAttribute('role', 'article');
+            });
+        });
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

@@ -1,77 +1,95 @@
 @model AwesomeTickets.Models.Category
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Category Details";
 }
 
-<h1>Details</h1>
+<div class="container my-4">
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="Index">Categories</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@Model.Title</li>
+        </ol>
+    </nav>
 
-<div>
-    <h4>Category</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CategoryId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CategoryId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-    </dl>
-</div>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Category Details</h1>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model?.CategoryId" class="btn btn-primary">
+                <i class="bi bi-pencil"></i> Edit
+            </a>
+            <a asp-action="Index" class="btn btn-outline-secondary ms-2">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
 
-@if (Model.Events != null && Model.Events.Any())
-{
-    <h4 class="mt-4">Events in this Category</h4>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    ID
-                </th>
-                <th>
-                    Title
-                </th>
-                <th>
-                    Date
-                </th>
-                <th>
-                    Price
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Events)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EventId)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Title)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EventDateTime)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Price)
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <p class="mt-4">No events in this category.</p>
-}
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0">Category Information</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Category ID:</strong> <span class="badge bg-secondary">@Model.CategoryId</span></p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Title:</strong> <span class="fw-medium">@Model.Title</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.CategoryId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    @if (Model.Events != null && Model.Events.Any())
+    {
+        <div class="card shadow-sm">
+            <div class="card-header bg-light d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Events in this Category</h5>
+                <span class="badge bg-primary">@Model.Events.Count() events</span>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead class="table-light">
+                            <tr>
+                                <th>ID</th>
+                                <th>Title</th>
+                                <th class="d-none d-md-table-cell">Date</th>
+                                <th>Price</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Events)
+                            {
+                                <tr>
+                                    <td><span class="badge bg-secondary">@item.EventId</span></td>
+                                    <td>
+                                        <span class="fw-medium">@item.Title</span>
+                                    </td>
+                                    <td class="d-none d-md-table-cell">
+                                        <i class="bi bi-calendar me-1"></i> @item.EventDateTime.ToString("MMM dd, yyyy - h:mm tt")
+                                    </td>
+                                    <td>
+                                        <span class="fw-bold">@item.Price.ToString("C")</span>
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Events" asp-action="Details" asp-route-id="@item.EventId" class="btn btn-sm btn-outline-primary">
+                                            <i class="bi bi-eye"></i> View
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle me-2"></i> No events in this category.
+        </div>
+    }
 </div> 

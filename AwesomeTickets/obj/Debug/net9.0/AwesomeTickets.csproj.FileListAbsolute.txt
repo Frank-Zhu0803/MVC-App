@@ -114,9 +114,7 @@ D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\A
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\scopedcss\bundle\AwesomeTickets.styles.css
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\scopedcss\projectbundle\AwesomeTickets.bundle.scp.css
-D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\u7jjgkvvej-b9sayid5wm.gz
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\tftups47o9-61n19gt1b8.gz
-D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\2s4armlg3t-xtxxf3hu2r.gz
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\wil5na9ai4-bqjiyaj88i.gz
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\70xffmwsla-c2jlpeoesf.gz
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\z8aos0s7mc-erw9l3u2r3.gz
@@ -355,3 +353,5 @@ D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\bin\Debug\net9.0\r
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\2s4armlg3t-ot8d3fkqk0.gz
+D:\WindowsProjects\IdeaProjects\AwesomeTickets\AwesomeTickets\obj\Debug\net9.0\compressed\u7jjgkvvej-wr5a97i3qq.gz

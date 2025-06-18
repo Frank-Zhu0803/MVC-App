@@ -17,13 +17,16 @@
     {
         <div class="card mb-4">
             <div class="card-header bg-primary text-white">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-8">
                         <h5 class="mb-0">Your Cart Items</h5>
                     </div>
-                    <div class="col-md-6 text-end">
+                    <div class="col-md-6 col-sm-4 text-end">
                         <form asp-controller="Cart" asp-action="Clear" method="post" class="d-inline">
-                            <button type="submit" class="btn btn-sm btn-outline-light">Clear Cart</button>
+                            <button type="submit" class="btn btn-sm btn-outline-light">
+                                <i class="bi bi-trash d-md-none" aria-hidden="true"></i>
+                                <span class="d-none d-md-inline">Clear Cart</span>
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -31,7 +34,7 @@
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table table-hover">
-                        <thead>
+                        <thead class="d-none d-md-table-header-group">
                             <tr>
                                 <th>Event</th>
                                 <th>Price</th>
@@ -43,32 +46,47 @@
                         <tbody>
                             @foreach (var item in Model.Items)
                             {
-                                <tr>
-                                    <td>
-                                        <div class="d-flex">
+                                <tr class="cart-item-row">
+                                    <td class="cart-item-details">
+                                        <div class="d-flex align-items-center">
                                             @if (!string.IsNullOrEmpty(item.Event.ImageFilename))
                                             {
-                                                <img src="~/event-images/@item.Event.ImageFilename" alt="@item.Event.Title" style="width: 50px; height: 50px; object-fit: cover;" class="me-3">
+                                                <img src="~/event-images/@item.Event.ImageFilename" alt="@item.Event.Title" 
+                                                     class="cart-item-image me-3 d-none d-sm-block" 
+                                                     style="width: 50px; height: 50px; object-fit: cover;">
                                             }
-                                            <div>
-                                                <h6 class="mb-0">@item.Event.Title</h6>
-                                                <small class="text-muted">@item.Event.EventDateTime.ToString("MMM dd, yyyy - h:mm tt")</small>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">@item.Event.Title</h6>
+                                                <small class="text-muted d-block">@item.Event.EventDateTime.ToString("MMM dd, yyyy - h:mm tt")</small>
+                                                <div class="d-md-none mt-2">
+                                                    <span class="badge bg-secondary">@item.UnitPrice.ToString("C") each</span>
+                                                    <span class="badge bg-primary ms-1">Total: @item.TotalPrice.ToString("C")</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </td>
-                                    <td>@item.UnitPrice.ToString("C")</td>
-                                    <td>
+                                    <td class="d-none d-md-table-cell">@item.UnitPrice.ToString("C")</td>
+                                    <td class="cart-item-quantity">
                                         <form asp-controller="Cart" asp-action="UpdateQuantity" method="post" class="d-flex align-items-center">
                                             <input type="hidden" name="cartItemId" value="@item.CartItemId" />
-                                            <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control form-control-sm" style="width: 60px;" />
-                                            <button type="submit" class="btn btn-sm btn-outline-secondary ms-2">Update</button>
+                                            <div class="input-group input-group-sm">
+                                                <input type="number" name="quantity" value="@item.Quantity" min="1" 
+                                                       class="form-control" style="max-width: 80px;" />
+                                                <button type="submit" class="btn btn-outline-secondary">
+                                                    <i class="bi bi-arrow-clockwise d-md-none" aria-hidden="true"></i>
+                                                    <span class="d-none d-md-inline">Update</span>
+                                                </button>
+                                            </div>
                                         </form>
                                     </td>
-                                    <td>@item.TotalPrice.ToString("C")</td>
-                                    <td>
+                                    <td class="d-none d-md-table-cell fw-bold">@item.TotalPrice.ToString("C")</td>
+                                    <td class="cart-item-actions">
                                         <form asp-controller="Cart" asp-action="RemoveFromCart" method="post">
                                             <input type="hidden" name="cartItemId" value="@item.CartItemId" />
-                                            <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                                            <button type="submit" class="btn btn-sm btn-danger">
+                                                <i class="bi bi-trash" aria-hidden="true"></i>
+                                                <span class="d-none d-lg-inline ms-1">Remove</span>
+                                            </button>
                                         </form>
                                     </td>
                                 </tr>
@@ -85,13 +103,17 @@
                 </div>
             </div>
             <div class="card-footer">
-                <div class="row">
-                    <div class="col-md-6">
-                        <a asp-controller="Browse" asp-action="Index" class="btn btn-outline-secondary">Continue Shopping</a>
+                <div class="row g-2">
+                    <div class="col-md-6 col-12">
+                        <a asp-controller="Browse" asp-action="Index" class="btn btn-outline-secondary w-100 w-md-auto">
+                            <i class="bi bi-arrow-left me-2" aria-hidden="true"></i>Continue Shopping
+                        </a>
                     </div>
-                    <div class="col-md-6 text-end">
-                        <form asp-controller="Cart" asp-action="Checkout" method="post" class="d-inline">
-                            <button type="submit" class="btn btn-success">Proceed to Checkout</button>
+                    <div class="col-md-6 col-12 text-md-end">
+                        <form asp-controller="Cart" asp-action="Checkout" method="post" class="d-inline w-100 w-md-auto">
+                            <button type="submit" class="btn btn-success w-100 w-md-auto">
+                                <i class="bi bi-credit-card me-2" aria-hidden="true"></i>Proceed to Checkout
+                            </button>
                         </form>
                     </div>
                 </div>

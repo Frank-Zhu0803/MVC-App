@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Km+S0h9MKqFMI6xWSohpb515xIfksAYpPofjAS7DWg=",
+  "Hash": "0P0KrdIjnLLebB8psfagdjVwVEMZCMcW7j+ow2nr8XQ=",
   "Source": "AwesomeTickets",
   "BasePath": "_content/AwesomeTickets",
   "Mode": "Default",
@@ -164,12 +164,12 @@
       "OriginalItemSpec": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-xtxxf3hu2r.gz",
+      "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-ot8d3fkqk0.gz",
       "SourceId": "AwesomeTickets",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AwesomeTickets",
-      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=ot8d3fkqk0}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -178,8 +178,8 @@
       "RelatedAsset": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fpxp8wntf7",
-      "Integrity": "465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=",
+      "Fingerprint": "mxhu0vwcd6",
+      "Integrity": "tm3eTsWscBH2flNw2DMxXQW/8uiVZXLF7R31hnbOVfE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\js\\site.js"
@@ -1130,12 +1130,12 @@
       "OriginalItemSpec": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-b9sayid5wm.gz",
+      "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-wr5a97i3qq.gz",
       "SourceId": "AwesomeTickets",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AwesomeTickets",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=wr5a97i3qq}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1144,8 +1144,8 @@
       "RelatedAsset": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "lakbsdhqjq",
+      "Integrity": "fbsdkFIFuEpnoCQvpRiPcRKs1AxkptyPcVBDon8JQOM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "wr5a97i3qq",
+      "Integrity": "RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\event-images\\036826b4-48db-4839-b885-0dd2f8930e8b.png"
+    },
+    {
+      "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\289fb1e7-cbec-45e5-9870-b1b1490f6d9c.jpg",
+      "SourceId": "AwesomeTickets",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\",
+      "BasePath": "_content/AwesomeTickets",
+      "RelativePath": "event-images/289fb1e7-cbec-45e5-9870-b1b1490f6d9c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "77gy9pff32",
+      "Integrity": "g+NbYj2HuYAfTDG0DRtZvRn41Vf01vuu+lZzbkz+7ok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\event-images\\289fb1e7-cbec-45e5-9870-b1b1490f6d9c.jpg"
     },
     {
       "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\51e88979-80cc-495a-a1e8-f79a3f4d6505.jpg",
@@ -1506,6 +1527,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\event-images\\73bd0083-a702-41b2-a03c-4a45a09c1e71.jpg"
+    },
+    {
+      "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\8d94f35c-df2c-4735-9c16-c8db2be2c151.jpg",
+      "SourceId": "AwesomeTickets",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\",
+      "BasePath": "_content/AwesomeTickets",
+      "RelativePath": "event-images/8d94f35c-df2c-4735-9c16-c8db2be2c151#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ex6gp3aas9",
+      "Integrity": "7rO+WW3SzKH4+UlMEBVEzQy7rlKIvr4E8YleOWyxcbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\event-images\\8d94f35c-df2c-4735-9c16-c8db2be2c151.jpg"
     },
     {
       "Identity": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\c51bd7e7-7952-41ac-b9bf-f1ca0c3ffcf4.png",
@@ -1585,8 +1627,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "ot8d3fkqk0",
+      "Integrity": "FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -3450,13 +3492,13 @@
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-wr5a97i3qq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.000280977803"
         }
       ],
       "ResponseHeaders": [
@@ -3466,19 +3508,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "3558"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"fbsdkFIFuEpnoCQvpRiPcRKs1AxkptyPcVBDon8JQOM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Wed, 18 Jun 2025 04:06:32 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3494,26 +3536,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.css",
       "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3523,7 +3557,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "17797"
         },
         {
           "Name": "Content-Type",
@@ -3531,11 +3565,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Wed, 18 Jun 2025 04:06:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-wr5a97i3qq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fbsdkFIFuEpnoCQvpRiPcRKs1AxkptyPcVBDon8JQOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 04:06:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fbsdkFIFuEpnoCQvpRiPcRKs1AxkptyPcVBDon8JQOM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.wr5a97i3qq.css",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-wr5a97i3qq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000280977803"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3558"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fbsdkFIFuEpnoCQvpRiPcRKs1AxkptyPcVBDon8JQOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 04:06:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr5a97i3qq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.wr5a97i3qq.css",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 04:06:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3545,7 +3724,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "wr5a97i3qq"
         },
         {
           "Name": "label",
@@ -3553,13 +3732,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-RL/LhpfDeyy3ixZjQV8Vq5aynyw/N5tTr3pp07OKSf0="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-b9sayid5wm.gz",
+      "Route": "css/site.wr5a97i3qq.css.gz",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-wr5a97i3qq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3568,7 +3747,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "3558"
         },
         {
           "Name": "Content-Type",
@@ -3576,11 +3755,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"fbsdkFIFuEpnoCQvpRiPcRKs1AxkptyPcVBDon8JQOM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Wed, 18 Jun 2025 04:06:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3598,7 +3777,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "wr5a97i3qq"
         },
         {
           "Name": "label",
@@ -3606,144 +3785,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003125000000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\u7jjgkvvej-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-fbsdkFIFuEpnoCQvpRiPcRKs1AxkptyPcVBDon8JQOM="
         }
       ]
     },
@@ -3826,6 +3868,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jHrdPQ0ewIXDAIpQVfLn7dD0CPS4hiEkDfWlhQVbXcs="
+        }
+      ]
+    },
+    {
+      "Route": "event-images/289fb1e7-cbec-45e5-9870-b1b1490f6d9c.77gy9pff32.jpg",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\289fb1e7-cbec-45e5-9870-b1b1490f6d9c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+NbYj2HuYAfTDG0DRtZvRn41Vf01vuu+lZzbkz+7ok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 06:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "77gy9pff32"
+        },
+        {
+          "Name": "label",
+          "Value": "event-images/289fb1e7-cbec-45e5-9870-b1b1490f6d9c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+NbYj2HuYAfTDG0DRtZvRn41Vf01vuu+lZzbkz+7ok="
+        }
+      ]
+    },
+    {
+      "Route": "event-images/289fb1e7-cbec-45e5-9870-b1b1490f6d9c.jpg",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\289fb1e7-cbec-45e5-9870-b1b1490f6d9c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g+NbYj2HuYAfTDG0DRtZvRn41Vf01vuu+lZzbkz+7ok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 06:33:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g+NbYj2HuYAfTDG0DRtZvRn41Vf01vuu+lZzbkz+7ok="
         }
       ]
     },
@@ -4072,6 +4196,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ayBDQozdBXAbwZVhDSKgRCsaWmRgAr/C/LhxJD+0Fmg="
+        }
+      ]
+    },
+    {
+      "Route": "event-images/8d94f35c-df2c-4735-9c16-c8db2be2c151.ex6gp3aas9.jpg",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\8d94f35c-df2c-4735-9c16-c8db2be2c151.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rO+WW3SzKH4+UlMEBVEzQy7rlKIvr4E8YleOWyxcbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 06:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ex6gp3aas9"
+        },
+        {
+          "Name": "label",
+          "Value": "event-images/8d94f35c-df2c-4735-9c16-c8db2be2c151.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rO+WW3SzKH4+UlMEBVEzQy7rlKIvr4E8YleOWyxcbw="
+        }
+      ]
+    },
+    {
+      "Route": "event-images/8d94f35c-df2c-4735-9c16-c8db2be2c151.jpg",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\event-images\\8d94f35c-df2c-4735-9c16-c8db2be2c151.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rO+WW3SzKH4+UlMEBVEzQy7rlKIvr4E8YleOWyxcbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 06:34:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rO+WW3SzKH4+UlMEBVEzQy7rlKIvr4E8YleOWyxcbw="
         }
       ]
     },
@@ -4539,12 +4745,12 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-xtxxf3hu2r.gz",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-ot8d3fkqk0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005235602094"
+          "Quality": "0.000486854917"
         }
       ],
       "ResponseHeaders": [
@@ -4554,15 +4760,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "2053"
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tm3eTsWscBH2flNw2DMxXQW/8uiVZXLF7R31hnbOVfE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Mon, 16 Jun 2025 03:45:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4582,13 +4788,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg="
         }
       ]
     },
@@ -4603,7 +4809,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "7259"
         },
         {
           "Name": "Content-Type",
@@ -4611,11 +4817,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Mon, 16 Jun 2025 03:45:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4625,13 +4831,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-xtxxf3hu2r.gz",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-ot8d3fkqk0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4640,7 +4846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "2053"
         },
         {
           "Name": "Content-Type",
@@ -4648,11 +4854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tm3eTsWscBH2flNw2DMxXQW/8uiVZXLF7R31hnbOVfE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Mon, 16 Jun 2025 03:45:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4670,18 +4876,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-tm3eTsWscBH2flNw2DMxXQW/8uiVZXLF7R31hnbOVfE="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-xtxxf3hu2r.gz",
+      "Route": "js/site.ot8d3fkqk0.js",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-ot8d3fkqk0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005235602094"
+          "Quality": "0.000486854917"
         }
       ],
       "ResponseHeaders": [
@@ -4691,15 +4897,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "2053"
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tm3eTsWscBH2flNw2DMxXQW/8uiVZXLF7R31hnbOVfE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Mon, 16 Jun 2025 03:45:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4719,13 +4925,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "W/\"FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "ot8d3fkqk0"
         },
         {
           "Name": "label",
@@ -4733,12 +4939,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
+      "Route": "js/site.ot8d3fkqk0.js",
       "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4748,7 +4954,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "7259"
         },
         {
           "Name": "Content-Type",
@@ -4756,11 +4962,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Mon, 16 Jun 2025 03:45:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4770,7 +4976,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "ot8d3fkqk0"
         },
         {
           "Name": "label",
@@ -4778,13 +4984,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-FFNmIsQWirDo68NzTavFmuLYGOlBZc/2O+ae/pZiJxg="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-xtxxf3hu2r.gz",
+      "Route": "js/site.ot8d3fkqk0.js.gz",
+      "AssetFile": "D:\\WindowsProjects\\IdeaProjects\\AwesomeTickets\\AwesomeTickets\\obj\\Debug\\net9.0\\compressed\\2s4armlg3t-ot8d3fkqk0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4793,7 +4999,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "190"
+          "Value": "2053"
         },
         {
           "Name": "Content-Type",
@@ -4801,11 +5007,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
+          "Value": "\"tm3eTsWscBH2flNw2DMxXQW/8uiVZXLF7R31hnbOVfE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 13:15:04 GMT"
+          "Value": "Mon, 16 Jun 2025 03:45:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4823,7 +5029,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "ot8d3fkqk0"
         },
         {
           "Name": "label",
@@ -4831,7 +5037,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+          "Value": "sha256-tm3eTsWscBH2flNw2DMxXQW/8uiVZXLF7R31hnbOVfE="
         }
       ]
     },

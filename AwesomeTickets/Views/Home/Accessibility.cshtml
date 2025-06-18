@@ -1,0 +1,108 @@
+@{
+    ViewData["Title"] = "Accessibility";
+}
+
+<div class="container my-5">
+    <div class="row mb-5">
+        <div class="col-lg-8 mx-auto">
+            <h1 class="display-5 fw-bold mb-4">Accessibility Features</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <!-- Keyboard Shortcuts -->
+            <section id="keyboard-shortcuts" class="accessibility-section">
+                <h2 class="mb-4">Keyboard Shortcuts</h2>
+                <p>
+                    Our website supports various keyboard shortcuts to help you navigate more efficiently. 
+                    Press the shortcut keys to quickly access different parts of our site.
+                </p>
+
+                <table class="shortcut-table">
+                    <thead>
+                        <tr>
+                            <th>Shortcut</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="keyboard-shortcut">Alt + B</span></td>
+                            <td>Browse events page</td>
+                        </tr>
+                        <tr>
+                            <td><span class="keyboard-shortcut">Alt + A</span></td>
+                            <td>Accessibility page (this page)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="keyboard-shortcut">Alt + C</span></td>
+                            <td>Cart page</td>
+                        </tr>
+                        <tr>
+                            <td><span class="keyboard-shortcut">Alt + L</span></td>
+                            <td>Login page</td>
+                        </tr>
+                        <tr>
+                            <td><span class="keyboard-shortcut">Alt + R</span></td>
+                            <td>Register page</td>
+                        </tr>
+                        <tr>
+                            <td><span class="keyboard-shortcut">Tab</span></td>
+                            <td>Navigate to the next focusable element</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Screen Reader Support -->
+            <section id="screen-reader" class="accessibility-section">
+                <h2 class="mb-4">Screen Reader Support</h2>
+                <p>
+                    Our website is optimized for screen readers with the following features:
+                </p>
+                <ul>
+                    <li>Semantic HTML structure</li>
+                    <li>Alternative text for images</li>
+                    <li>Descriptive link text</li>
+                    <li>Form labels and instructions</li>
+                </ul>
+            </section>
+
+            <!-- Responsive Design -->
+            <section id="responsive" class="accessibility-section">
+                <h2 class="mb-4">Responsive Design</h2>
+                <p>
+                    Our website is fully responsive and adapts to different screen sizes, 
+                    from desktop computers to mobile phones.
+                </p>
+            </section>
+
+            <!-- Back to Top -->
+            <section id="back-to-top" class="accessibility-section">
+                <h2 class="mb-4">Back to Top Button</h2>
+                <p>
+                    A "Back to Top" button appears when you scroll down the page. 
+                    This feature makes it easier to return to the top of the page without 
+                    having to scroll all the way back up. 
+                </p>
+            </section>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Function to add keyboard shortcut hints to links with accesskey attributes
+        document.addEventListener('DOMContentLoaded', function() {
+            const accessKeyElements = document.querySelectorAll('[accesskey]');
+            accessKeyElements.forEach(element => {
+                const key = element.getAttribute('accesskey').toUpperCase();
+                const hintText = document.createElement('span');
+                hintText.classList.add('visually-hidden');
+                hintText.textContent = ` (Alt+${key})`;
+                element.appendChild(hintText);
+            });
+        });
+    </script>
+} 
